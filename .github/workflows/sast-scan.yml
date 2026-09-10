@@ -34,7 +34,7 @@ jobs:
             --out . \
             --scan . \
             --disableOssIndex \
-	    --disableCentral
+	    	--disableCentral
 
       - name: Archive SAST report
         uses: actions/upload-artifact@v4
